@@ -1,0 +1,198 @@
+
+
+@media (min-width:768px) and (max-width:991px) {
+   .container{
+      margin-left: 50px;
+      margin-right: 20px ;
+   }
+   .navbar-collapse .show{
+      background-color: red !important;
+   }
+   .hero .container{
+      margin-left: 50px;
+   }
+   .section-padding{
+      padding-top: 120px;
+      padding-bottom: 120px;
+   }
+   .banner-card{
+      padding: .5em;
+   }
+   .banner-card .small-font{
+      font-size: 14px !important;
+   }
+   .banner-card h1{
+      line-height: 1.3;
+      padding-bottom: 7px;
+   
+   }
+   .banner-card p{
+      padding-bottom: 7px;
+   }
+   
+   .banner-img{
+      padding: 15px;
+      margin-left: 10px;
+   }
+   .banner-img img{
+      transform: translate(5%, -40%);
+      left: 0%;
+      
+   }    
+   button{
+      padding: 7px 14px;
+      font-size: 16px;
+   }
+   /* ==ABOUT== */
+   .about .container{
+      padding: 20px;
+   }
+   .about-img img{
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+   }
+   .about .left{
+      height: 100%;
+      width: 50%;
+   }
+
+   .about .right{
+      height: 100%;
+      width: 50%;
+   }
+   .about-card{
+      padding: .5em;
+   }
+   .title{
+      font-size: 2em;
+      padding: 8px; 
+   }
+   .subtitle{
+      padding: 8px;
+      font-size: 16px;
+   }
+   /*=== MENU SECTION ===*/
+
+   .menu h5{
+      font-size: 18px;
+   }
+   .menu-name button{
+      font-size: 1px;
+      border-radius: 10px;
+      padding: 5px 10px;
+   }
+   .menu span{
+      color: #ffd;
+   }
+
+   .menu-name button{
+   font-size: 13px;
+   }
+
+
+   .divider-up{
+      top: -9%;
+   }
+   .divider-down{
+      bottom: -9%;
+   }
+   .divider-down, .divider-up img{
+      width: 100%;
+   }
+   /* === CONTACT SECTION ===*/
+   .gallery{
+      background-position: left, right;
+      background-size: 50% 100%, 50% 100%;
+   }
+   .gallery .contact{
+      margin-left: 50px;
+   }
+
+}
+@media (min-width:300px) and (max-width:767px) {
+   .section-padding{
+      padding-top: 100px;
+      padding-bottom: 100px;
+   }
+   .about{
+      margin-top: 30vh;
+   }
+   .hero::before{
+      display: none;
+   }
+   .hero::after{
+      content: '';
+      position: absolute;
+      bottom: -35% ;
+      
+      left: 0;
+      width: 100%;
+      height: 55vh;
+      background-color:#ffd700;
+      z-index: -1;
+   }
+   .banner .left{
+      width: 100%;
+   }
+   .banner-card{
+      padding: .5em;
+   }
+   .banner-card h1{
+      letter-spacing: 1.5px;
+      padding-bottom: 5px;
+   
+   }
+   .banner-card p{
+      padding-bottom: 5px;
+   }
+   .banner-img{
+      width: 100%;
+      position: relative;
+      padding: 20px;
+      margin-left: 10px;
+      height: 100%;
+   }
+   .banner-img img{
+      left: 0%;
+      transform: translate(0%, 0%);
+      
+   }
+   /* ===         ===*/
+   .wave{
+      top: 55%;
+      height: 23%;
+      left: 50%;    
+   }
+   .wave-svg{
+     width: 100%;
+     height: 100%;
+     transform: rotate(180deg);
+   }
+   /* ===     ABOUT    ===*/
+   .about .container{
+      padding: 20px;
+      margin-left: 20px;
+   }
+   
+   /* === MENU SECTION ===*/
+   .divider-up{
+      top: -3%;
+   }
+   .divider-down{
+      bottom: -3%;
+   }
+   .divider-down, .divider-up img{
+      width: 100%;
+   }
+   /* === CONTACT SECTION ===*/
+   .gallery{
+      
+      
+      background-position: left top, left bottom;
+      background-repeat: no-repeat;
+      background-size: 100% 50%, 100% 50%;
+      background-attachment: fixed;
+   }
+
+}
