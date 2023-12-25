@@ -7,16 +7,21 @@
    box-sizing: border-box;
    transition: .5s ease;
    font-family: 'Capriola', sans-serif;
-   color: #343434;   
+   color: #343434;
+   
 }
 body{
    font-family: 'Solway',sans-serif !important;
    scroll-behavior: smooth;
    background-attachment: fixed;
-   background-color: #ffd;
+   background-color: #ffd700;
+   overflow-x: hidden;
 }
 .bgColor{
    background-color: #ffd700;
+}
+.toggle-btn{
+   font-size: 12px;
 }
 .navbar{
    transition: all 0.4s ease-in-out;
@@ -96,6 +101,13 @@ span{
 }
 .banner-card{
    padding: 1em;
+}
+.banner-card .typewriter{
+   height: 50px;
+
+}
+.banner-card .typewriter .text-typing{
+   border-right: 3px solid #ffd700;
 }
 .banner-card h1{
    font-size: 3em;
@@ -237,19 +249,21 @@ button{
 }
 /*=== servies ===*/
 .icon{
-   width: 70px;
-   height: 70px;
+   
+   width: 100px;
+   height: 100px;
    display: flex;
    align-items: center;
    justify-content: center;
    border-radius: 100%;
-   background-color: #ffd90061;
+   /*background-color: #ffd90061;*/
 
 }
 .icon img{
-   width: 50%;
-   height: 50%;
+   width: 100%;
+   height: 100%;
    object-fit: cover;
+   cursor: pointer;
 }
 .box-shadow{
    box-shadow: 0 4px 8px rgba(255,215,0,0.3);
@@ -288,6 +302,11 @@ button{
    justify-content: start;
    
 }
+.contact .icon img{
+   height: 32px;
+   width: 32px;
+   object-fit: cover;
+}
 .contact .icon img:hover{
    transform: translateY(-10px);
 }
@@ -300,31 +319,27 @@ button{
    color: #ffd;
    padding: 10px;
 }
+
 .contact input{
    background-color: #ffd;
-   width: 80%;
-   height: 50px;
+   width: 100%;
+   height: 100%;
+   border: 2px solid #ffd;
    border-radius: 25px;
    font-style: italic;
-   padding-left: 15px;
+   padding: 1em;
    font-size: 16px;
-   position: relative;
+   
 }
-.contact input::after{
-   content: '';
-   background-color: #ffd700;
-   height: 100%;
-   width: 100%;
-   position: absolute;
-   right: 0;
-   top: 0;
-   z-index: 1;
-}
+
 .contact input::placeholder{
    color: #343434;
    font-style: italic;
-   padding-left: 10px;
    font-size: 12px;
+}
+.contact button{
+   margin-top: 10px;
+
 }
 .footer{
    background-color: #ffd700;
