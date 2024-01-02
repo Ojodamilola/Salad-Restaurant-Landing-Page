@@ -8,6 +8,7 @@
    transition: .5s ease;
    font-family: 'Capriola', sans-serif;
    color: #343434;
+   overflow: hidden;
    
 }
 body{
