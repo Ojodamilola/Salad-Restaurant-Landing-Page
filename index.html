@@ -23,7 +23,7 @@
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor04" aria-controls="navbarColor04" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarColor04">
+        <div class="collapse navbar-collapse side-bar" id="navbarColor04">
           <ul class="navbar-nav ms-auto">
             
             <li class="nav-item">
@@ -45,35 +45,33 @@
       </div>
     </nav>
     <!-- Hero  -->
+    
     <section class="container-fluid hero">
-      <div class="wave"><img class="wave-svg" src="./images/wave.svg" alt=""></div>
-      
       <div class="container section-padding banner">
         <div class="row justify-content-center align-items-center g-2 ">
-          <div class="col-md-6 left">
-            <div class="banner-card leftReveal">
-              <div class="typewriter">
-                <span class="fs-5 small-font text-typing span" id="typewriter" data-array=""></span>
+            <div class="col-md-6 left">
+              <div class="banner-card leftReveal">
+                <div class="typewriter">
+                  __
+                  <span class="fs-5 small-font text-typing span" id="typewriter" data-array=""></span>
+                </div>
+                
+                <h1 class="title">We Serve <br/> Delicious <span>FOOD</span></h1>
+                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio exercitationem illum aspernatur, officia error tenetur consectetur esse accusantium possimus ut.</p>
+                <button >Get started &dArr;</button>
               </div>
+            </div>
+            <div class="col-md-6 banner-right">
               
-              <h1 class="title">We Serve <br/> Delicious <span>FOOD</span></h1>
-              <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio exercitationem illum aspernatur, officia error tenetur consectetur esse accusantium possimus ut.</p>
-              <button >Get started &dArr;</button>
+              <div class="banner-img rightReveal">
+                <img class="img-fluid" src="./images/23.png" alt="">
+              </div>
             </div>
-          </div>
-          <div class="col-md-6">
-            <div class="banner-img rightReveal">
-              <img src="./images/23.png" alt="">
-            </div>
-          </div>
-          
         </div>
       </div>
       
-      
-      
     </section>
-
+  
     <!-- About  -->
     <section class="section-padding about">
       <div class="container">
@@ -96,7 +94,9 @@
 
     <!-- Menu  -->
     <section class="section-padding container-fluid menu">
-      <div class="divider-up"><img class="divider-svg" src="./images/wave.svg" alt=""></div>
+      <div class="divider-up">
+        <img src="./images/wave.svg" alt="">
+      </div>
       <div class="container">
         <div class="row justify-content-center align-items-center g-2">
           <div class="col-12">
@@ -236,7 +236,9 @@
           
         </div>
       </div>
-      <div class="divider-down"><img class="divider-svg" src="./images/wave.svg" alt=""></div>
+      <div class="divider-down">
+        <img src="./images/wave.svg" alt="">
+      </div>
     </section>
 
     <!-- why choose us  -->
@@ -334,7 +336,7 @@
               <div class=" p-4 contact">
                  
                  <h4 class="mt-4 fw-bold">Subscribe Us</h4>
-                 <input type="email" id="email" name="email " placeholder="Please Enter your Email">
+                 <input type="email" id="email" name="email " placeholder="Please Enter your Email" autocomplete="email">
                   <button type="submit">Subscribe</button>  
               </div>
             </div> 

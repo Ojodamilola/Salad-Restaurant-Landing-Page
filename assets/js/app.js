@@ -14,7 +14,7 @@ window.addEventListener('scroll', () =>{
 var typeWriterElement = document.getElementById('typewriter');
 
 // The TextArray: 
-var textArray = ["__Salad","__Restaurant"];
+var textArray = ["Tasty","Salad","Restaurant"];
 
 // You can also do this by transfering it through a data-attribute
 // var textArray = typeWriterElement.getAttribute('data-array');
@@ -68,17 +68,18 @@ setTimeout( function () {
 },1000);
 	
 // Reveal on Scroll
+
  ScrollReveal({
 	reset: true,
 	distance: '60px',
 	duration: 2500,
 	delay: 400
  });
- ScrollReveal().reveal('.rightReveal', {delay:500, origin:'right'});
- ScrollReveal().reveal('.leftReveal', {delay:500, origin:'left'});
- ScrollReveal().reveal('.bottomReveal', {delay:500, origin:'bottom'});
- ScrollReveal().reveal('.topReveal', {delay:500, origin:'top'});
- ScrollReveal().reveal('.liReveal img', {delay:500, origin:'top', interval:200});
+ ScrollReveal().reveal('.rightReveal', {delay:400, origin:'right'});
+ ScrollReveal().reveal('.leftReveal', {delay:300, origin:'left'});
+ ScrollReveal().reveal('.bottomReveal', {delay:400, origin:'bottom'});
+ ScrollReveal().reveal('.topReveal', {delay:300, origin:'top'});
+ ScrollReveal().reveal('.liReveal img', {delay:400, origin:'top', interval:200});
 
 
  // Dark & light mode toggle
