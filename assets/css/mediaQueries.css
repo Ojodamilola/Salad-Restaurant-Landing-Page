@@ -92,10 +92,10 @@
       width: 100%;
    }
    /* === CONTACT SECTION ===*/
-   .gallery{
+   /* .gallery{
       background-position: left, right;
       background-size: 50% 100%, 50% 100%;
-   }
+   } */
    .gallery .contact{
       margin-left: 50px;
    }
@@ -144,7 +144,7 @@
    .banner-card .span{
       font-size: 14px !important;
    }
-   .banner-card h1{
+   .banner-card .title{
       font-size: 1.8em;
       letter-spacing: 1.2px;
    
@@ -182,11 +182,11 @@
       width: 100%;
    }
    /* === CONTACT SECTION ===*/
-   .gallery{
+   /* .gallery{
       background-position: left top, left bottom;
       background-repeat: no-repeat;
       background-size: 100% 50%, 100% 50%;
       background-attachment: fixed;
-   }
+   } */
 
 }

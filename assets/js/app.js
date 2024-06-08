@@ -1,4 +1,4 @@
-const navbar = document.querySelector('.navbar');
+ const navbar = document.querySelector('.navbar');
 
 window.addEventListener('scroll', () =>{
    if(this.scrollY > 0){
@@ -15,9 +15,6 @@ var typeWriterElement = document.getElementById('typewriter');
 
 // The TextArray: 
 var textArray = ["Tasty","Salad","Restaurant"];
-
-// You can also do this by transfering it through a data-attribute
-// var textArray = typeWriterElement.getAttribute('data-array');
 
 
 // function to generate the backspace effect 
@@ -67,20 +64,26 @@ setTimeout( function () {
 	StartWriter(0);
 },1000);
 	
-// Reveal on Scroll
+// // Reveal on Scroll
 
- ScrollReveal({
-	reset: true,
-	distance: '60px',
-	duration: 2500,
-	delay: 400
- });
- ScrollReveal().reveal('.rightReveal', {delay:400, origin:'right'});
- ScrollReveal().reveal('.leftReveal', {delay:300, origin:'left'});
- ScrollReveal().reveal('.bottomReveal', {delay:400, origin:'bottom'});
- ScrollReveal().reveal('.topReveal', {delay:300, origin:'top'});
- ScrollReveal().reveal('.liReveal img', {delay:400, origin:'top', interval:200});
+//  ScrollReveal({
+// 	reset: true,
+// 	distance: '60px',
+// 	duration: 2500,
+// 	delay: 400
+//  });
+//  ScrollReveal().reveal('.rightReveal', {delay:400, origin:'right'});
+//  ScrollReveal().reveal('.leftReveal', {delay:300, origin:'left'});
+//  ScrollReveal().reveal('.bottomReveal', {delay:400, origin:'bottom'});
+//  ScrollReveal().reveal('.topReveal', {delay:300, origin:'top'});
+//  ScrollReveal().reveal('.liReveal img', {delay:400, origin:'top', interval:200});
 
 
  // Dark & light mode toggle
-let toggleButton = document.getElementById('toggleButton');
+const toggleButton = document.getElementById('themeToggle');
+toggleButton.addEventListener('click', handleToggleTheme);
+
+function handleToggleTheme() {
+alert('Dark Mode is not avaliable at the moment, Please Contact Admin')
+
+}
